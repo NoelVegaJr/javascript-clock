@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./fonts/digital-7.ttf');
+   }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    text-align: center;
+}
+
+.clock {
+    font-family: 'digital-clock-font';
+    color: #1cd3fe;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+
+
+@media (min-width: 820px) {
+    .clock {
+        font-size: 15rem;
+    }
+}
